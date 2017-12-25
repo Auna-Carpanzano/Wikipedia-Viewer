@@ -44,3 +44,8 @@ input[type=search] {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
+.btn:hover {
+  background-color: #f4f4f4;
+  color: #000000;
+}
