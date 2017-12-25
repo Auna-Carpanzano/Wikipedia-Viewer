@@ -75,6 +75,10 @@ a:hover {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+#output {
+  width: 80%;
+}
+
 } /* End small devices */
 
 /* Medium devices (desktops, 992px and up) */
