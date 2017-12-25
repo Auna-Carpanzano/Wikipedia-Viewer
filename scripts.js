@@ -6,6 +6,6 @@ $(document).ready(function() {
   });
 
   function getResults() {
-
+    var searchInput = $("#searchInput").val();
   }
 }); // End document ready function
