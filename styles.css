@@ -56,4 +56,6 @@ li {
   color: #000000;
   list-style-type: none;
   font-size: 18px;
+  border-left: 10px solid #588E95;
+  border-radius: 2px;
 }
