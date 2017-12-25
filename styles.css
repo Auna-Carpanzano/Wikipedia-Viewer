@@ -22,3 +22,7 @@ input[type=search], #search {
   border: 1px solid #c7c8ca;
   background-color: transparent;
 }
+
+input[type=search] {
+  width: 80%;
+}
