@@ -32,5 +32,6 @@ input[type=search] {
 
 #search {
   border-left: none;
+  position: relative;
+  right: 4px;
 }
-
