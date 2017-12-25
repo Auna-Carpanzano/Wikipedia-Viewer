@@ -54,4 +54,5 @@ input[type=search] {
 li {
   background-color: #f4f4f4;
   color: #000000;
+  list-style-type: none;
 }
