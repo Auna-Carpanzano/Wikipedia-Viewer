@@ -38,4 +38,6 @@ input[type=search] {
 
 .btn {
   font-size: 16px;
+  background-color: #f4f4f4;
+  color: gray;
 }
