@@ -21,6 +21,8 @@ $(document).ready(function() {
         for (var i = 0; i < data[1].length; i++) {
           $("#output").prepend("<a href= " + data[3][i] + "><li>" + data[1][i] + "<p>" + data[2][i] + "</p></li></a>");
         }
+        // CLEAR SEARCH BOX AFTER SEARCH
+        $("#searchInput").val('');
       },
     }); // End AJAX
   } // End getResults function
