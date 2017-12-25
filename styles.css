@@ -20,4 +20,5 @@ h1 {
 input[type=search], #search {
   font-size: 18px;
   border: 1px solid #c7c8ca;
+  background-color: transparent;
 }
