@@ -25,7 +25,7 @@ $(document).ready(function() {
         $("#searchInput").val('');
       },
       error: function(errorMessage) {
-
+        alert("Error");
       }
     }); // End AJAX
   } // End getResults function
