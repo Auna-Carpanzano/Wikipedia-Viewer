@@ -10,6 +10,7 @@ $(document).ready(function() {
     var api = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchInput + "&callback=?";
     $.ajax({
       type: "GET",
+      url: api,
     }); // End AJAX
   } // End getResults function
 }); // End document ready function
