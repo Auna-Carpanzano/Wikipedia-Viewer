@@ -13,6 +13,8 @@ $(document).ready(function() {
       url: api,
       dataType: "json",
       success: function(data) {
+        // ONLY SHOW CURRENT OUTPUT
+        $("#output").html('');
       },
     }); // End AJAX
   } // End getResults function
