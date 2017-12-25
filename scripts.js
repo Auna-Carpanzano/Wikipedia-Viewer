@@ -13,8 +13,14 @@ $(document).ready(function() {
       url: api,
       dataType: "json",
       success: function(data) {
-        // ONLY SHOW CURRENT OUTPUT
+        // Only show current output
         $("#output").html('');
+        // [1][i] Title
+        // [2][i] Description
+        // [3][i] Link
+        for (var i = 0; i < data[1].length; i++) {
+
+        }
       },
     }); // End AJAX
   } // End getResults function
