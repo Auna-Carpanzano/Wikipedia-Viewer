@@ -11,6 +11,7 @@ $(document).ready(function() {
     $.ajax({
       type: "GET",
       url: api,
+      dataType: "json",
     }); // End AJAX
   } // End getResults function
 }); // End document ready function
