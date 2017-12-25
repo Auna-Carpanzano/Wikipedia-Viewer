@@ -5,4 +5,7 @@ $(document).ready(function() {
     }, getResults);
   });
 
+  function getResults() {
+
+  }
 }); // End document ready function
