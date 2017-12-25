@@ -9,7 +9,7 @@ $(document).ready(function() {
     var searchInput = $("#searchInput").val();
     var api = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchInput + "&callback=?";
     $.ajax({
-
+      type: "GET",
     }); // End AJAX
   } // End getResults function
 }); // End document ready function
