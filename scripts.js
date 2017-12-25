@@ -6,6 +6,11 @@ $(document).ready(function() {
   });
 
   $("#searchInput").keypress(function(e) {
+    if (e.which == 13) {
+      $("#input").animate({
+        paddingTop: '0'
+      }, getResults);
+    }
   });
 
   function getResults() {
