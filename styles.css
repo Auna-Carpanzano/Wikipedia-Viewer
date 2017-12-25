@@ -71,3 +71,8 @@ a:hover {
   width: 100%;
   margin: 0 auto;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+} /* End small devices */
