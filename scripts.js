@@ -24,6 +24,9 @@ $(document).ready(function() {
         // CLEAR SEARCH BOX AFTER SEARCH
         $("#searchInput").val('');
       },
+      error: function(errorMessage) {
+
+      }
     }); // End AJAX
   } // End getResults function
 }); // End document ready function
