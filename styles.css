@@ -79,6 +79,10 @@ a:hover {
   width: 80%;
 }
 
+li {
+  margin: 50px;
+}
+
 } /* End small devices */
 
 /* Medium devices (desktops, 992px and up) */
